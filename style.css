@@ -93,13 +93,14 @@ header h1 {
 }
 
 .product h3 {
-  color: #388e3c; /* verde escuro */
+  color: black; /* agora preto */
   margin: 10px 0;
 }
 
 .product p {
   margin: 5px 0;
   font-weight: bold;
+  color: black; /* agora preto */
 }
 
 .product button {
@@ -147,3 +148,4 @@ header h1 {
 .cart-item button:hover {
   background-color: #c62828;
 }
+
