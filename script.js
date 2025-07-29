@@ -88,7 +88,7 @@ function renderCart() {
     cartItems.appendChild(div);
   });
 
-  cartTotal.textContent = Total: R$ ${total.toFixed(2)};
+  cartTotal.textContent = `Total: R$ ${total.toFixed(2)}`;
 }
 
 function removeFromCart(index) {
